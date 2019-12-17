@@ -1,5 +1,118 @@
-.galery__img{
-    width: 100%;
-    height: 100%;
-   
+p{
+    padding: 0;
+    margin: 0;
 }
+body{
+    min-width: 320px;
+    font-size: 18px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* header */
+header .nav-item{
+    margin: 0 30px;
+    text-transform: uppercase;
+}
+header .nav-item a{
+    color: #000;
+}
+header .nav-item a:hover{
+    color:#fff;
+    transition: .2s;   
+}
+.logo{
+    color: #000;
+}
+.logo:hover{
+    color: white;
+    transition: .2s;
+}
+/* end of header */
+
+/* galery */
+.galery{
+    
+}
+/* end of galery */
+
+/* footer */
+footer{
+    width:100%;
+    background-color:#99ccff;
+    height: 100;
+    padding: 10px 0;
+    font-size: 20px;
+    
+}
+.footer__light__text{
+    font-size: 18px;
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__item{
+    width: 33.33333%;
+    max-width: 240px;
+    text-align: center;  
+}
+.footer__bold__text{
+    font-weight: 700;
+}
+.footer__social{
+    margin-top: 5px;
+}
+.social__icon{
+    width: 30px;
+    height: 30px;
+    margin: 0 3px;
+    
+}
+
+
+footer a{
+
+}
+footer a:hover{
+    text-decoration: none;
+}
+footer .social__icon{
+    opacity: 0.7;
+}
+footer .social__icon:hover{
+    opacity: 1;
+    transition: .2s;
+}
+
+.bank__icon{
+   width: 30px;
+   height: 30px;
+}
+/* end of footer */
+
+
+/* copyright */
+.copyright{
+    padding: 1px 0;
+    background-color: #000;
+    text-align: center;
+    height: 100%;
+}
+.copyright__text{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 3px 0;
+}
+.copyright:hover{
+    background-color: rgba(0, 0,0,0.9);
+    transition: .2s;
+}
+
+/* end of copyright*/
