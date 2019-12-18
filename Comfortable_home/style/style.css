@@ -6,6 +6,7 @@ body{
     min-width: 320px;
     font-size: 18px;
     font-family: 'Fira Sans Condensed', sans-serif;
+    color: black;
     
 }
 img{
@@ -36,10 +37,59 @@ header .nav-item a:hover{
 /* end of header */
 
 /* galery */
-
+@media screen and (max-width: 800px) {
+    .catalog__description {
+      display: none;
+    }
+  }
+.catalog{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.img__catalog{
+    
+}
+.col-3{
+    padding: 10px 10px;
+    
+}
+.col-3:hover{
+    color: #fff;
+    transition: .2s;
+    background-color: #99ccff;
+    border-radius: 5px;
+}
+.catalog__title{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+}
 /* end of galery */
-
+.title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+    
+}
 /* footer */
+@media screen and (max-width: 800px) {
+    .footer__bold__text {
+      font-size: 14px;
+    }
+    .social__icon {
+        max-width: 20px;
+        max-height: 20px;
+    }
+}
+@media screen and (max-width: 420px) {
+    
+    .footer__light__text {
+        font-size: 12px;
+    }
+   
+}
 footer{
     width:100%;
     background-color:#99ccff;
@@ -49,7 +99,7 @@ footer{
     
 }
 .footer__light__text{
-    font-size: 18px;
+    font-size: 16px;
 }
 .footer__inner{
     display: flex;
