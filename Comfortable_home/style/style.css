@@ -66,35 +66,50 @@ header .nav-item a:hover{
 }
 .img__catalog{
     height: 256px;    
+    width: 256px;
 }
+@media screen and (max-width: 1200px) {
+    .img__catalog {
+        height: 180px;
+        width: 180px;
+    }
+}
+
 @media screen and (max-width: 990px) {
     .img__catalog {
       height: 160px;
+      width: 160px;
     }
   }
   @media screen and (max-width: 764px) {
     .img__catalog {
-      height: 140px;
+      height: 120px;
+      width: 120px;
     }
   }
+  
   @media screen and (max-width: 660px) {
     .img__catalog {
-      height: 120px;
+      height: 110px;
+      width: 110px;
     }
   }
   @media screen and (max-width: 560px) {
     .img__catalog {
       height: 100px;
+      width: 100px;
     }
   }
   @media screen and (max-width: 460px) {
     .img__catalog {
       height: 80px;
+      width: 80px;
     }
   }
   @media screen and (max-width: 360px) {
     .img__catalog {
       height: 60px;
+      width: 60px;
     }
   }
 /* end of galery */
