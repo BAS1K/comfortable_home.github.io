@@ -105,6 +105,12 @@ header .nav-item a:hover{
       height: 80px;
       width: 80px;
     }
+    .catalog__title{
+        font-size: 12px;
+    }
+    .catalog__price{
+        font-size: 12px;
+    }
   }
   @media screen and (max-width: 360px) {
     .img__catalog {
