@@ -7,19 +7,31 @@ body{
     font-size: 18px;
     font-family: 'Fira Sans Condensed', sans-serif;
     color: black;
+    background: url(../cute\ bg.jpg);
+    background-size: contain;
+    /*background-repeat: no-repeat;*/
     
 }
 img{
     width: 100%;
     height: auto;
 }
-
+.galery .container{
+   background-color: #fff; 
+}
+.catalog .container{
+    background-color: #fff; 
+ }
 
 
 /* header */
+
 header .nav-item{
+    /*font-family: 'Pacifico', cursive;*/
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
     margin: 0 30px;
-    text-transform: uppercase;
+    
 }
 header .nav-item a{
     color: #000;
@@ -30,18 +42,26 @@ header .nav-item a:hover{
 }
 .logo{
     color: #000;
+    
+
 }
 .logo:hover{
-    color: white;
+    color: #fff;
     transition: .2s;
 }
 /* end of header */
 
 /* galery */
+.galery{
+    padding-top: 5px;
+}
 @media screen and (max-width: 800px) {
     .catalog__description {
       display: none;
     }
+  }
+  .catalog__description{
+      opacity: .8;
   }
 .catalog{
     width: 100%;
@@ -51,6 +71,7 @@ header .nav-item a:hover{
 }
 .col-3{
     padding: 10px 10px;
+    text-align: center;
     
 }
 .col-3:hover{
@@ -63,6 +84,7 @@ header .nav-item a:hover{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 16px;
+    margin-top: 10px;
 }
 .img__catalog{
     height: 256px;    
@@ -108,9 +130,10 @@ header .nav-item a:hover{
     .catalog__title{
         font-size: 12px;
     }
-    .catalog__price{
+    .catalog__title{
         font-size: 12px;
     }
+    
   }
   @media screen and (max-width: 360px) {
     .img__catalog {
@@ -134,6 +157,7 @@ header .nav-item a:hover{
         max-width: 20px;
         max-height: 20px;
     }
+    
 }
 @media screen and (max-width: 420px) {
     
@@ -147,7 +171,8 @@ footer{
     background-color:#99ccff;
     height: 100;
     padding: 10px 0;
-    font-size: 20px;
+    font-size: 26px;
+    
     
 }
 .footer__light__text{
@@ -164,14 +189,13 @@ footer{
 }
 .footer__bold__text{
     font-weight: 700;
+    font-family: 'Caveat', cursive;
 }
-.footer__social{
-    margin-top: 5px;
-}
+
 .social__icon{
     width: 30px;
     height: 30px;
-    margin: 0 3px;
+    
     
 }
 
@@ -208,7 +232,7 @@ footer .social__icon:hover{
     margin: 3px 0;
 }
 .copyright:hover{
-    background-color: rgba(0, 0,0,0.9);
+    background-color: rgba(0, 0,0,0.7);
     transition: .2s;
 }
 
